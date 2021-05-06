@@ -1,0 +1,40 @@
+.card{
+    position:relative;
+    width: 20%;
+    /* margin:0.5rem ; */
+    padding:0.2rem ; 
+    display:inline-block;
+    border:0.1rem rgb(255 153 27) solid;
+        margin-left:3%;
+        margin-top:2%;
+    }
+.card:hover{
+    /* width: 20.3%; */
+    cursor:pointer;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, .5);
+    
+
+}
+
+@media screen and (max-width: 992px) {
+    .card{
+        width:25%;
+    } 
+   
+    
+  }
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    .card{
+        width:40%;
+    }
+  
+  }
+
+  @media screen and (max-width: 450px) {
+    .card{
+        width:80%;
+    }
+     
+  }
